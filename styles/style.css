@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+h1, p, span, a{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../assets/Group\ 5.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+main div{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+main h1, a, p{
+    color: #fff;
+}
+main p{
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#tryItFree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    background: #5E54A4;
+    width: 320px;
+    height: 88px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px hsla(249, 10%, 26%, 0.473) ;
+    text-decoration: none;
+}
+#tryItFree span{
+    font-weight: 400;
+}
+#tryItFree:hover{
+    background: #7363dd;
+    transition: 0.7s;
+}
+form{
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 7px 0px hsla(249, 10%, 26%, 0.473) ;
+}
+#formulario{
+    width: 320px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#formulario input, button, p{
+    margin-top: 17px;
+}
+form input{
+    padding-left: 15px ;
+    width: 279px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid #BAB7D4;
+    font-weight: 600;
+}
+#formulario p{
+    color: #BAB7D4;
+    font-size: 16px;
+    font-weight: 500;
+}
+#termsServices{
+    color: #FF7979;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#formulario button{
+    background: #38CC8B;
+    color: #fff;
+    border: none;
+    width: 279px;
+    height: 56px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 0px  hsl(154, 55%, 43%);
+    font-weight: 600;
+    cursor: pointer;
+}
+#formulario button:hover{
+    background: #77E2B3;
+    transition: 0.7s;
+}
+
+#formArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

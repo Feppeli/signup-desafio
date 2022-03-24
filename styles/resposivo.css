@@ -1,0 +1,61 @@
+@media (min-width:400px){
+    #textArea p{
+        width: 350px;
+    }
+}
+@media (min-width:600px){
+
+}
+@media (min-width: 1000px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        flex-direction: row;
+
+    }
+    main div{
+        margin-top: 20px;
+    }
+    #textArea h1{
+        font-size: 2.5em;
+        font-weight: 600;
+        text-align: left;
+        width: 500px;
+    }
+    #textArea p{
+
+        font-size: 1.2em;
+        width: 500px;
+        text-align: left;
+        font-weight: 400;
+    }
+    #formulario{
+        width: 400px;
+        height: 400px;
+    }
+    #tryItFree{
+        align-items: center;
+        height: 60px;
+        width: 400px;
+        flex-direction: row;
+    }
+    form input{
+        width: 350px;
+    }
+    #formulario button{
+        width: 350px;
+    }
+    #formulario p{
+        width: 360px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    #termsServices{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+}
