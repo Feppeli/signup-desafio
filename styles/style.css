@@ -64,23 +64,28 @@ form{
     background-color: #fff;
     box-shadow: 0px 7px 0px hsla(249, 10%, 26%, 0.473) ;
 }
-#formulario{
-    width: 320px;
-    margin-top: 15px;
+.elementsInput{
     display: flex;
-    flex-direction: column;
     align-items: center;
-   
 }
-#formulario input, button, p{
-    margin-top: 17px;
-}
-form input{
-    padding-left: 15px ;
+#formulario #labelFirstName, #labelLastName, #labelEmail, #labelPassword{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 279px;
     height: 56px;
     border-radius: 10px;
     border: 1px solid #BAB7D4;
+}
+#formulario div{
+    width: 260px;
+    align-items: flex-end;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+form input{
+    padding-left: 15px ;
+    border: none;
     font-weight: 600;
 }
 #formulario p{

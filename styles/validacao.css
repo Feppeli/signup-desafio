@@ -1,9 +1,5 @@
-input:invalid{
-    border-color: red;
-}
-input:valid{
-    border-color: #DEDEDE;
-}
-input:focus{
-    border-color: #DEDEDE !important;
+i{
+    margin-right: 5px;
+    color: red;
+    opacity: 0%;
 }

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/resposivo.css">
     <link rel="stylesheet" href="./styles/validacao.css">
+
+    <script src="https://kit.fontawesome.com/bb2d553a57.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -25,18 +27,31 @@
 
             <form>
                 <div id="formulario">
+
                     <label id="labelFirstName">
-                        <input type="text" placeholder="First Name" id="inputFirstName" required>
+                            <input type="text" placeholder="First Name" id="inputFirstName" required>
+                            <i id="i1" class="fa-solid fa-circle-exclamation" ></i>
                     </label>
+                    <div class="errormsgFName"></div>
+                    
                     <label id="labelLastName">
                         <input type="text" placeholder="Last Name" id="inputLastName" required value="">
+                        <i id="i2" class="fa-solid fa-circle-exclamation"></i>
                     </label>
+                    <div class="errormsgLName"></div>
+
                     <label id="labelEmail">
                         <input type="email" placeholder="Email Adress" id="inputEmail" required>
+                        <i id="i3" class="fa-solid fa-circle-exclamation" ></i>
                     </label>
-                    <label>
+                    <div class="errormsgEmail"></div>
+
+                    <label id="labelPassword">
                         <input type="password" placeholder="Password" id="inputPassword" required>
+                        <i id="i4" class="fa-solid fa-circle-exclamation"></i>
                     </label>
+                    <div class="errormsgPassword"></div>
+
                     
                     
                     <button id="submit" type="submit">CLAIM YOUR FREE TRIAL</button>
@@ -45,6 +60,8 @@
             </form>
         </div>
     </main>
-    <script src="./script/teste.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/iconValidation.js" defer></script>
+    
 </body>
 </html>
