@@ -1,4 +1,4 @@
-document.querySelector('#submit').addEventListener('click', function(){
+document.querySelector('#submit').addEventListener('click', function(e){
     var inputFirstName = document.querySelector('#inputFirstName')
     var firstName = inputFirstName.value
     const msgErrorFirstName = `<p style="color: red; margin: 0;text-align: right;">First Name cannot be empty</p>`
@@ -8,9 +8,11 @@ document.querySelector('#submit').addEventListener('click', function(){
         elementFirstName.innerHTML = msgErrorFirstName
         labelFirstName.appendChild(elementFirstName)
         
-    }else{
-        console.log('completo')
+    }else {
+        labelFirstName.removeChild(elementFirstName)
+        
     }
+    
 });
 
 document.querySelector('#submit').addEventListener('click', function() {
@@ -24,7 +26,7 @@ document.querySelector('#submit').addEventListener('click', function() {
         elementLastName.innerHTML = msgErrorLastName
         labelLasteName.appendChild(elementLastName)
     }else{
-        console.log('completo')
+        labelLasteName.removeChild(elementLastName)
     }
 })
 
@@ -43,17 +45,3 @@ document.querySelector('#submit').addEventListener('click', function(){
     }
 })
 
-document.querySelector('#submit').addEventListener('click', function(){
-    var inputPassword = document.querySelector('#inputPassord')
-    var password = inputPassword.value
-    const msgErroPasseword = `<p style="color: red; margin: 0;text-align: right;">Looks like this is not an email</p>`
-    const labelPassword = document.querySelector('.errormsgPassword')
-
-    if(password == ""){
-        let elementPassword = document.createElement('label')
-        elementPassword.innerHTML = msgErroPasseword
-        labelPassword.appendChild(elementPassword)
-    }else{
-        console.log(completo)
-    }
-})

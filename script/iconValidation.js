@@ -1,17 +1,17 @@
-var button = document.querySelector('#submit')
+var button1 = document.querySelector('#submit')
 
-button.addEventListener('click', function() {
+button1.addEventListener('click', function() {
     var icon = document.querySelector('#i1')
     var inputFN = document.querySelector('#inputFirstName')
     
-    if (inputFN.value == ""){
+    if (inputFN.value === ""){
         icon.style.opacity = "100%"
-    }else{
+    }else if(inputFN.value !== ""){
         icon.style.display = "0%"
     }
 })
 
-button.addEventListener('click', function() {
+button1.addEventListener('click', function() {
     var icon = document.querySelector('#i2')
     var inputLN = document.querySelector('#inputLastName')
 
@@ -22,7 +22,7 @@ button.addEventListener('click', function() {
     }
 })
 
-button.addEventListener('click', function(){
+button1.addEventListener('click', function(){
     var icon = document.querySelector('#i3')
     var inputEmail = document.querySelector('#inputEmail')
 
@@ -33,7 +33,7 @@ button.addEventListener('click', function(){
     }
 })
 
-button.addEventListener('click', function() {
+button1.addEventListener('click', function() {
     var icon = document.querySelector('#i4')
     var inputPassword = document.querySelector('#inputPassword')
 

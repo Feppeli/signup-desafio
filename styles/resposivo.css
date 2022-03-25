@@ -2,9 +2,18 @@
     #textArea p{
         width: 350px;
     }
-}
-@media (min-width:600px){
 
+}
+
+@media (min-width:573px){
+    #tryItFree{
+        width: 500px;
+    }
+}
+@media (max-width:574px){
+    form{
+        width: 320px;
+    }
 }
 @media (min-width: 1000px){
     body{
@@ -33,6 +42,7 @@
     #formulario{
         width: 400px;
         height: 400px;
+
     }
     #tryItFree{
         align-items: center;
